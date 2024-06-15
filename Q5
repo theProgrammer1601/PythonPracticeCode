@@ -1,0 +1,9 @@
+'''
+How can you determine the number of spaces in a given input sentence using Python?
+'''
+sent=input()
+count=0
+for i in sent:
+    if i==" ":
+        count+=1
+print(count)
